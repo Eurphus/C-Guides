@@ -16,7 +16,7 @@ Code becomes a series of logical instructions to execute.
 
 | Type | What is it? | Languages |
 |--|--|--|
-| Static Typing  | All variable types are defined, types are known at compile time. \nAdvantages include better bug catching, as compiler can detect type issues. | Java, C# |
+| Static Typing  | All variable types are defined, types are known at compile time. Advantages include better bug catching, as compiler can detect type issues. | Java, C# |
 | Dynamic Typing | Type is associated with run-time values, does not need to be explicitly defined in the code \nAdvantages include it being easier to write code | Racket, Javascript, Python |\
 
 Statically typed means variable types are defined and known before the compiler does it's thin
