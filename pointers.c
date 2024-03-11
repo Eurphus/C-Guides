@@ -160,7 +160,7 @@ void pointer_practice3(void) {
   for (int *element = arr; element < arr + arr_len; ++element) {
     // For some reason %ld was required instead of %d
     // The result of element - arr has a long type, so you cannot print it directly with %d, keep this in mind.
-    int index = element - arr;
+    index = element - arr;
     printf("      arr[%d] = %d\n", index, *element);
     printf("      &arr[%ld] = %p\n", element - arr, element);
   }
