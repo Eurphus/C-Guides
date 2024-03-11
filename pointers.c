@@ -155,6 +155,7 @@ void pointer_practice3(void) {
   }
   
   printf("(3) Repeating arr using 2nd method\n");
+  int index;
   // arr + arr_len is useful here, as we are telling it not to be equal to it or go past it
   for (int *element = arr; element < arr + arr_len; ++element) {
     // For some reason %ld was required instead of %d
